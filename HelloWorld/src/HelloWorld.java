@@ -13,6 +13,7 @@ public class HelloWorld {
     }
     private static void SuperDupa() {
     	System.out.println("Hiho");
+    	System.out.println(100);
     }
     
 }
