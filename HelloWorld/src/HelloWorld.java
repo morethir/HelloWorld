@@ -9,11 +9,15 @@ public class HelloWorld {
         j = "First Test successfully!";
         System.out.println(j);
         SuperDupa();
+        ZahlAusgeben();
         
     }
     private static void SuperDupa() {
     	System.out.println("Hiho");
     	System.out.println(100);
+    }
+    private static void ZahlAusgeben() {
+    	System.out.println(100000000);
     }
     
 }
