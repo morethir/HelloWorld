@@ -9,15 +9,38 @@ public class HelloWorld {
         j = "First Test successfully!";
         System.out.println(j);
         SuperDupa();
-        ZahlAusgeben();
+        
+        int h = ZahlAusgeben();
+        h += 100;
+        System.out.println(h);
+        // Funktion Multiplikation aufrufen mit a * b (ohne Rückgabewert)
+        multiplikation(5, 5);
+        
+        //Rekursion
+        rekursion(42);
         
     }
-    private static void SuperDupa() {
+    
+    static void SuperDupa() {
     	System.out.println("Hiho");
     	System.out.println(100);
     }
-    private static void ZahlAusgeben() {
-    	System.out.println(100000000);
+    
+    static int ZahlAusgeben() {
+    	int za = 100;
+    	return za;
+    }
+    
+    static void multiplikation(int a, int b) {
+    System.out.println(a * b);
+    
+    }
+    // Rekursion
+    static void rekursion(int r) {
+      if (r >0 && r != 1) { 
+        System.out.println("Noch " + r + " Durchläufe.");
+        rekursion(r-1);
+      } else { System.out.println("Das ist der letzte Durchlauf.\nFertig!"); }
     }
     
 }
