@@ -12,7 +12,8 @@ public class Bestellung {
 		if (gamingPC.preis > 1000) {
 			gamingPC.datenblatt(); 
 			} else System.out.println("Kein Gaming PC über 1000 EUR vorhanden!");
-		
+		Liste anzeigen = new Liste();
+		anzeigen.liste();
 		
 	}
 }
